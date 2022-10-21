@@ -8,7 +8,7 @@
   "description": "",
   "keywords": [],
   "scripts": {
-    "dev": "npx nodemon --ignore database.json --exec node --experimental-json-modules src/index.js",
+    "dev": "npx nodemon --ignore database.json --exec node --experimental-json-modules --experimental-top-level-await src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
