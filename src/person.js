@@ -40,7 +40,10 @@ export default class Person {
 
   static generateInstanceFromString(text) {
     const EMPTY_SPACE = /\s+/;
-    const [id, vehicles, kmTraveled, from, to] = text.split(EMPTY_SPACE);
+    const [id, vehicles, kmTraveled, from, to] = text
+      .replace(/(\s+\,\s+)|(\s+\,)|(\,\s+)/gm, ",")
+      .split(EMPTY_SPACE);
+
     const person = new Person({
       id,
       kmTraveled,
