@@ -42,7 +42,7 @@ describe("Person Suit test", () => {
     expect(result).to.be.deep.equal(expected);
   });
 
-  it("should format values in default", () => {
+  it("should format values in default language, English", () => {
     const person = new Person({
       from: "2020-01-01",
       to: "2020-02-01",
@@ -60,5 +60,20 @@ describe("Person Suit test", () => {
     };
 
     expect(result).to.be.deep.equal(expected);
+  });
+
+  it("should return a person instance from a string with space before and/or after comma in vehicle list", () => {
+    const person = Person.generateInstanceFromString(
+      "1 Bike ,Carro, Aviao,Moto , Navio 20000 2020-01-01 2020-02-01"
+    );
+    const expected = {
+      id: "1",
+      vehicles: ["Bike", "Carro", "Aviao", "Moto", "Navio"],
+      kmTraveled: "20000",
+      from: "2020-01-01",
+      to: "2020-02-01",
+    };
+
+    expect(person).to.be.deep.equal(expected);
   });
 });
