@@ -25,6 +25,7 @@ export default class TerminalController {
     const data = database.map((item) => new Person(item).formatted(language));
     const table = chalkTable(this.getTableOption(), data);
 
+    console.draft(`\n*** This table is in language: ${language} ***`);
     this.print = console.draft(table);
     this.data = data;
   }
