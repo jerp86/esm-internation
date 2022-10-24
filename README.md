@@ -4,13 +4,9 @@
 
 <span align="center">
 
-![GitHub](https://img.shields.io/github/license/jerp86/esm-internationalization?style=plastic)
-![GitHub language count](https://img.shields.io/github/languages/count/jerp86/esm-internationalization?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/jerp86/esm-internationalization?style=plastic)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/08e9bb6b09fc4640865bbb8b93806f6b)](https://www.codacy.com/gh/jerp86/esm-internation/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jerp86/esm-internation&utm_campaign=Badge_Grade)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/jerp86/esm-internationalization?style=plastic)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jerp86/esm-internationalization?style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/jerp86/esm-internationalization?style=plastic)
+[![GitHub](https://img.shields.io/github/license/jerp86/esm-internationalization)](LICENSE) ![GitHub language count](https://img.shields.io/github/languages/count/jerp86/esm-internationalization?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/jerp86/esm-internationalization?style=plastic)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/08e9bb6b09fc4640865bbb8b93806f6b)](https://www.codacy.com/gh/jerp86/esm-internation/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jerp86/esm-internation&utm_campaign=Badge_Grade) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/jerp86/esm-internationalization?style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jerp86/esm-internationalization?style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/jerp86/esm-internationalization?style=plastic)
 
 </span>
 
